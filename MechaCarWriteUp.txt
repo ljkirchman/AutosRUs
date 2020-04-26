@@ -1,0 +1,40 @@
+MechaCar Analysis and Conclusions
+
+Goal 1: Design a linear model that predicts the mpg of the MechaCar prototypes.
+
+Results of multiple linear regression:
+
+
+
+Conclusion
+1. Vehicle length and ground clearance provides a significant contribution to the multiple linear model.  In other words, vehicle length and ground clearance are statistically unlikely to provide a random amount of variance to this model. 
+* To verify my findings, I calculated the correlation coefficient between the “mpg” variable and the “vehicle.length” variable, which was .6094, which is strong.  The correlation coefficient between the “mpg” variable and the “ground.clearance” variable was much lower at .3287
+2. Since the intercept is statistically significant, we know that there ARE other variables NOT included in this model that if included, would contribute to the accuracy of the model.
+3. The slope of the line is considered to NOT be zero, since the p-value of our linear regression analysis is 5.08 X 10-8 which is much smaller than the assumed significance level of .05%.
+4. While there are other variables not included in this model that could help improve the accuracy of the model, the current model should be correct just over 71% of the time in predicting the mpg of the prototype car.
+
+
+
+
+Goal 2: Review the Suspension Coal Summary and determine if the manufacturing data meets the design specification.
+
+
+Conclusion
+The design specifications for the MechaCar suspension coils require that the variance must not exceed 100 pounds per inch.  Per the summary data above, the variance is less that 100 pounds per inch, specifically 62.3 pounds per inch.  Further in reviewing the Mean and Median, as well as the Standard Deviation, it appears that our data follows a normal distribution.
+
+
+Goal 3: Determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch.
+
+
+Conclusion
+Since the p-value is above our significance value of .05%,  we do not have sufficient evidence to reject the null hypothesis.  The two means are statistically similar.
+
+
+
+Goal: Design a study that compares the performance of the MechaCar prototype vs other car types, both in city and highway.
+
+
+
+
+
+
